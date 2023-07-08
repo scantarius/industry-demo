@@ -1,0 +1,66 @@
+#inovations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#inovations h1 {
+  margin-top: -20px;
+  padding: 100px;
+  font-size: 48px;
+  font-family: "Oooh Baby", sans-serif;
+  color: #fff;
+}
+
+#inovations img {
+  position: absolute;
+  bottom: 0;
+  width: 500px;
+  height: 500px;
+}
+
+#inovations img:hover {
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
+
+/* Responsivity */
+
+@media (width = 2560px) {
+  #inovations h1 {
+    font-size: 82px;
+  }
+
+  #inovations img {
+    width: 1000px;
+    height: 1000px;
+  }
+}
+
+@media (width = 1024px) {
+  #inovations img {
+    position: relative;
+    margin-top: -300px;
+  }
+}
+
+@media (width <= 768px) {
+  #inovations img {
+    position: relative;
+    margin-top: -200px;
+  }
+}
+
+@media (width <= 426px) {
+  #inovations img {
+    position: absolute;
+    bottom: -10%;
+    z-index: -1;
+  }
+
+  #inovations h1 {
+    width: 90%;
+    margin-top: 200px;
+  }
+}

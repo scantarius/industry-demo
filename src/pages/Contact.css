@@ -1,0 +1,85 @@
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#contact h1,
+#contact p {
+  color: #fff;
+}
+
+.contact-two {
+  margin-top: -100px;
+}
+
+.socialNetwork {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  width: 100%;
+  height: 130px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  position: absolute;
+  bottom: 0%;
+  transition: all 5s;
+}
+
+.socialNetwork a:hover {
+  transform: scale(0.95);
+}
+
+/* Responsivity */
+
+@media (width = 2560px) {
+  #contact {
+    font-size: 42px;
+    margin-top: 150px;
+  }
+
+  svg {
+    width: 100%;
+  }
+}
+
+@media (width = 1024px) {
+  .socialNetwork {
+    bottom: -10%;
+  }
+}
+
+@media (width <= 768px) {
+  .socialNetwork {
+    bottom: -10%;
+  }
+}
+
+@media (width <= 426px) {
+  svg {
+    color: #fff;
+  }
+
+  #contact > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .socialNetwork {
+    position: absolute;
+    top: 250%;
+    height: 400px;
+  }
+
+  .socialNetwork > a > img {
+    width: 100%;
+    height: 100px;
+  }
+}

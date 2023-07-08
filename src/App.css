@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+
+body {
+  background: url(./pictures/bg.jpg);
+  font-family: "Poppins", sans-serif;
+}
+
+#nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 20px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(35px);
+  box-shadow: 0 0 80px rgba(75, 73, 73, 0.25);
+  padding: 15px 20px 15px 20px;
+}
+
+.active {
+  color: red;
+  border-bottom: solid 1px red;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* Responsivity */
+
+@media (width = 2560px) {
+  .navWrapper {
+    width: 80%;
+    height: 80px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  a {
+    font-size: 48px;
+  }
+}
+
+@media (width <= 768px) {
+  .navWrapper {
+    width: 80%;
+  }
+}
+
+@media (width <= 426px) {
+  #nav {
+    position: static;
+  }
+
+  .navWrapper {
+    flex-direction: column;
+    height: 250px;
+    gap: 20px;
+  }
+}

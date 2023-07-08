@@ -1,0 +1,73 @@
+#homePage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  padding: 100px;
+}
+
+.companyMotto {
+  font-style: italic;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.homePageImage {
+  width: 40%;
+  height: 60%;
+  transition: all 0.5s;
+}
+
+.homePageImage:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+/* Responsivity */
+
+@media (width = 2560px) {
+  #homePage {
+    margin-top: 200px;
+  }
+
+  .companyMotto {
+    font-size: 48px;
+  }
+
+  .homePageImage {
+    width: 50%;
+    height: 70%;
+    margin-top: 10px;
+  }
+}
+
+@media (width <= 768px) {
+  #homePage {
+    margin-top: -50px;
+  }
+
+  .homePageImage {
+    width: 80%;
+    height: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (width <= 426px) {
+  #homePage {
+    width: 100%;
+    padding: 0;
+  }
+
+  .companyMotto {
+    padding: 50px;
+    margin-top: 100px;
+  }
+
+  .homePageImage {
+    width: 90%;
+    height: 110%;
+    margin-bottom: 50px;
+  }
+}
