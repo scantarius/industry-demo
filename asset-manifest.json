@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/industry-demo/static/css/main.8290be7b.css",
+    "main.js": "/industry-demo/static/js/main.a14089e6.js",
+    "static/media/bg.jpg": "/industry-demo/static/media/bg.eb8b9af13be169836a8e.jpg",
+    "static/media/firstimage.svg": "/industry-demo/static/media/firstimage.24ba856c76d644f5c15089b25d1c9830.svg",
+    "static/media/realization.svg": "/industry-demo/static/media/realization.0e0ce9f2599ffccaa1675742e9672478.svg",
+    "static/media/production.svg": "/industry-demo/static/media/production.b30e88b5cd1c85633c32c747fdf65f2b.svg",
+    "static/media/logo.png": "/industry-demo/static/media/logo.b68f3d02996820239854.png",
+    "static/media/design.svg": "/industry-demo/static/media/design.0b99b6ddeef81c2436a7739d90757be4.svg",
+    "static/media/diagram.svg": "/industry-demo/static/media/diagram.58b0fae0d18504c2cf436f86874ad688.svg",
+    "static/media/InstagramLogo.svg": "/industry-demo/static/media/InstagramLogo.e593132d3505d87f3995e67fc3efa45b.svg",
+    "static/media/ino.svg": "/industry-demo/static/media/ino.88fc772fb2949323ab9f4ece727a7238.svg",
+    "static/media/silhouette.svg": "/industry-demo/static/media/silhouette.1f818059a0482ac94516fb16f58384c2.svg",
+    "static/media/women.svg": "/industry-demo/static/media/women.9189c6ebf93a579c61d93ceed551cd6c.svg",
+    "static/media/education.svg": "/industry-demo/static/media/education.c216cb1fd89c71fe66fea9830585cdac.svg",
+    "index.html": "/industry-demo/index.html",
+    "static/media/FacebookLogo.svg": "/industry-demo/static/media/FacebookLogo.781d92ed4e0d7429b18e19a593e28eb8.svg",
+    "main.8290be7b.css.map": "/industry-demo/static/css/main.8290be7b.css.map",
+    "main.a14089e6.js.map": "/industry-demo/static/js/main.a14089e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8290be7b.css",
+    "static/js/main.a14089e6.js"
+  ]
+}
